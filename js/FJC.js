@@ -23,7 +23,7 @@ function FJC(){
 	this.gamma=1; 	// link with temperature reservoir
 	this.Theta=2;     // Temperature
 	
-	this.ErrTolerance=0.01;
+	this.ErrTolerance=0.001;
 	// precomputed numbers for speed purpose
 	this.dcarre=this.d*this.d; 
 	this.usm=1/this.masse; 
