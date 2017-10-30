@@ -11,7 +11,7 @@
 var simul_dt=0.01; // time step for integration
 
 function FJC(){
-	this.N=50; // monomer numbers
+	this.N=200; // monomer numbers
 	this.d=0.02; // spacing between monomers
 	this.masse=0.1; //weigth per monomer
 	
